@@ -1,0 +1,60 @@
+.about h1 {
+    color: var(--primary);
+    font-size: 45px;
+  }
+  
+  .about p {
+    color: var(--black);
+    font-size: 13px;
+  }
+  
+  .about p span {
+    font-style: italic;
+  }
+  
+  .about ul {
+    color: var(--black);
+    list-style-type: square;
+    margin: 20px 0;
+  }
+  
+  .about ul li {
+    font-size: 12px;
+    padding: 3px;
+  }
+  
+  .about ul li a {
+    color: var(--link);
+  }
+  
+  .about h2 {
+    color: var(--secondary);
+  }
+  
+  .about .recommendations {
+    margin-top: 20px;
+  }
+  
+  .about .recommendations div {
+    display: flex; /* Используйте Flexbox для распределения элементов */
+    align-items: center; /* Выравнивание элементов по центру */
+    margin-bottom: 10px; /* Расстояние между блоками */
+  }
+  
+  .about .panel {
+    background-color: var(--primary);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    color: var(--white);
+    margin-right: 12px;
+  }
+  
+  .about .recommendations div a {
+    color: var(--primary);
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+  
+  .about .recommendations div a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }

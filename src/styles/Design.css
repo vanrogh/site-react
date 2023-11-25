@@ -1,0 +1,27 @@
+.design h1 {
+    color: var(--primary);
+    font-size: 45px;
+  }
+  
+  .design h2 {
+    color: var(--secondary);
+  }
+  
+  .design p {
+    color: var(--black);
+    font-size: 13px;
+  }
+  
+  .design ul {
+    color: var(--black);
+    list-style-type: square;
+    margin: 20px 0;
+  }
+  
+  .design ul li {
+    font-size: 12px;
+    padding: 3px;
+  }
+  .design p a {
+    color: var(--link);
+  }

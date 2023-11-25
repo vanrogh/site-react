@@ -1,0 +1,17 @@
+.firm_style h1 {
+    color: var(--primary);
+    font-size: 45px;
+  }
+  
+  .firm_style h2 {
+    color: var(--secondary);
+  }
+  
+  .firm_style p {
+    color: var(--black);
+    font-size: 13px;
+  }
+  
+  .firm_style p a {
+    color: var(--link);
+  }
