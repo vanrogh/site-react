@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import { Link } from 'react-router-dom'; // Уточните путь, если необходимо
+
 
 Modal.setAppElement('#root'); // Установите appElement, как требует React Modal, чтобы предотвратить ошибки в скрытом содержимом
 

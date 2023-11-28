@@ -27,10 +27,11 @@ header {
   align-items: center;
   margin: 0 auto;
   padding: 20px 20px 0 20px;
+  max-width: 1400px;
 }
 header div {
   margin-right: auto;
-  margin-left: 200px;
+  
 }
 header div img {
   width: 360px;
@@ -67,18 +68,26 @@ header nav a.active {
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   header {
-    flex-direction: column; /* Stack logo and nav items vertically */
+    flex-direction: column; 
     align-items: flex-start;
+  }
+
+  header div img {
+    width: 280px;
   }
 
   header div,
   header nav {
     width: 100%;
-    margin: 0; /* Remove margin for smaller screens */
+    margin: 0; 
   }
 
   header nav h1 {
-    margin-bottom: 1rem; /* Add space below h1 */
+    margin-bottom: 1rem; 
+  }
+
+  main {
+    padding: 10px;
   }
 }
 
@@ -90,9 +99,10 @@ main {
 
 /* footer */
 footer {
+  max-width: 1400px;
   text-align: end;
   bottom: 0;
-  margin: 60px 50px 30px 0;
+  margin: 60px 20px 20px 0;
 }
 footer a {
   color: var(--black);
@@ -102,19 +112,28 @@ footer p {
   color: var(--secondary);
 }
 
-/* about */
 
+/* js modal file */
+.ReactModal__Overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-/* development */
+.ReactModal__Content {
+  position: relative;
+  outline: none;
+  width: auto;
+  max-width: 80%; /* Adjust the max-width as needed */
+  max-height: 80vh; /* Adjust the max-height as needed */
+  overflow: auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
 
-
-/* firm style */
-
-
-/* design */
-
-
-/* vacancies */
-
-
-/* contact */
+.ReactModal__Content button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

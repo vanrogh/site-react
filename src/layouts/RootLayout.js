@@ -8,12 +8,9 @@ export default function RootLayout() {
       <header>
           <div><img src={require('../images/logo.png')}/></div>
         <nav>
-          <h1>Студия</h1>
-          <NavLink to="/">О Студии</NavLink>
-          <NavLink to="development">Разработка сайтов</NavLink>
-          <NavLink to="style">Фирменный стиль</NavLink>
+          <h1>Компания</h1>
+          <NavLink to="/">О компании</NavLink>
           <NavLink to="design">Графический дизайн</NavLink>
-          <NavLink to="vacancies">Вакансии</NavLink>
           <NavLink to="contact">Контакты</NavLink>
         </nav>
       </header>
